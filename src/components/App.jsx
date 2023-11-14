@@ -21,11 +21,9 @@ export const App = () => {
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
-        followers={user.stats.followers}
-        views={user.stats.views}
-        likes={user.stats.likes}
+        stats={user.stats}
       />
-      <Statistics stats={preparedData} title="Upload stats" />
+      <Statistics title="Upload stats" stats={preparedData} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </>

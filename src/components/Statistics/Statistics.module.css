@@ -2,11 +2,11 @@
   background-color: #fff;
   min-width: 300px;
   margin: 0 auto;
-  padding-top: 20px;
   width: 80%;
 }
 
 .title {
+  padding-top: 20px;
   font-size: 25px;
   color: #868a94;
   text-align: center;
